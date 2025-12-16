@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="INZZO — Эксклюзивный dark streetwear бренд. Лимитированная коллекция Falling Sakura Hoodie. Премиум качество, уникальный дизайн, только 100 единиц.">
+    <meta name="keywords" content="INZZO, streetwear, худи, сакура, лимитированная коллекция, премиум одежда">
+    <title>inzzo — Drop Started | Falling Sakura Hoodie</title>
+    
+    <!-- Preconnect for faster font loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Critical CSS inline (will add later if needed) -->
+    <link rel="stylesheet" href="/static/styles.css">
+    
+    <!-- Optimized font loading - only necessary weights -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loading-logo">INZZO</div>
+    </div>
+
+    <!-- Hero Section -->
+    <main class="hero">
+        <div class="hero-bg">
+            <img src="/static/img/back.jpeg" alt="INZZO Collection" class="hero-image" loading="eager">
+            <div class="overlay"></div>
+        </div>
+
+        <div class="hero-content">
+            <div class="container">
+                <h1 class="glitch" data-text="DROP STARTED">Drop started</h1>
+                <p class="subtitle">Falling sakura hoodie</p>
+                <p class="description">Эксклюзивная коллекция. Только 100 единиц по всему миру</p>
+                
+                <!-- CTA Button to Order Form -->
+                <a href="#order-form" class="hero-cta-btn">
+                    <span>ОФОРМИТЬ ЗАЯВКУ</span>
+                    <div class="btn-glow"></div>
+                </a>
+            </div>
+        </div>
+        
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator"></div>
+    </main>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🌸</div>
+                    <h3>Уникальный дизайн</h3>
+                    <p>Авторская вышивка сакуры, созданная эксклюзивно для коллекции</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Лимитированный тираж</h3>
+                    <p>Только 100 единиц по всему миру. Будь одним из избранных</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔥</div>
+                    <h3>Премиум качество</h3>
+                    <p>Футер 450гр, 100% хлопок. Создано для комфорта и долговечности</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Catalog Section -->
+    <section class="catalog">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-glitch" data-text="CATALOG">CATALOG</span>
+            </h2>
+            <p class="section-subtitle">Лимитированная коллекция</p>
+            
+            <div class="products-grid">
+                <!-- Product Card 1 - Black Hoodie -->
+                <div class="product-card">
+                    <div class="product-image-wrapper">
+                        <div class="product-carousel">
+                            <div class="carousel-track">
+                                <img src="/static/img/black_hoodie.jpeg" alt="FALLING SAKURA HOODIE Black 1" class="product-image active" loading="lazy">
+                                <img src="/static/img/black_hoodie3.jpeg" alt="FALLING SAKURA HOODIE Black 2" class="product-image" loading="lazy">
+                                <img src="/static/img/black_hoodie4.jpeg" alt="FALLING SAKURA HOODIE Black 3" class="product-image" loading="lazy">
+                            </div>
+                            <button class="carousel-btn prev" data-direction="prev">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="15 18 9 12 15 6"></polyline>
+                                </svg>
+                            </button>
+                            <button class="carousel-btn next" data-direction="next">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="9 18 15 12 9 6"></polyline>
+                                </svg>
+                            </button>
+                            <div class="carousel-dots">
+                                <span class="dot active" data-index="0"></span>
+                                <span class="dot" data-index="1"></span>
+                                <span class="dot" data-index="2"></span>
+                            </div>
+                        </div>
+                        <div class="product-badge">LIMITED</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">FALLING SAKURA HOODIE</h3>
+                        <p class="product-color">Black Edition</p>
+                        <p class="product-description">Премиум худи с авторской вышивкой сакуры. Футер 450гр, 100% хлопок</p>
+                        <div class="product-details">
+                            <span class="product-stock">Осталось: 35/50</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Card 2 - Red Hoodie -->
+                <div class="product-card">
+                    <div class="product-image-wrapper">
+                        <div class="product-carousel">
+                            <div class="carousel-track">
+                                <img src="/static/img/red_hoodie.JPEG" alt="FALLING SAKURA HOODIE Red 1" class="product-image active" loading="lazy">
+                                <img src="/static/img/red_hoodie2.jpeg" alt="FALLING SAKURA HOODIE Red 2" class="product-image" loading="lazy">
+                                <img src="/static/img/red_hoodie3.jpeg" alt="FALLING SAKURA HOODIE Red 3" class="product-image" loading="lazy">
+                            </div>
+                            <button class="carousel-btn prev" data-direction="prev">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="15 18 9 12 15 6"></polyline>
+                                </svg>
+                            </button>
+                            <button class="carousel-btn next" data-direction="next">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="9 18 15 12 9 6"></polyline>
+                                </svg>
+                            </button>
+                            <div class="carousel-dots">
+                                <span class="dot active" data-index="0"></span>
+                                <span class="dot" data-index="1"></span>
+                                <span class="dot" data-index="2"></span>
+                            </div>
+                        </div>
+                        <div class="product-badge hot">LIMITED</div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">FALLING SAKURA HOODIE</h3>
+                        <p class="product-color">Red Edition</p>
+                        <p class="product-description">Премиум худи с авторской вышивкой сакуры. Футер 450гр, 100% хлопок</p>
+                        <div class="product-details">
+                            <span class="product-stock">Осталось: 37/50</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Order Form Card -->
+                <div id="order-form" class="product-card order-form-card">
+                    <div class="order-form-header">
+                        <h3>ОФОРМИТЬ ЗАЯВКУ</h3>
+                        <p class="form-subtitle">Эксклюзивный drop - успей оформить заказ</p>
+                    </div>
+                    
+                    <form id="orderForm" class="order-form">
+                        <div class="form-field">
+                            <label for="order-name">
+                                <span class="label-icon">👤</span>
+                                Ваше имя
+                            </label>
+                            <div class="input-wrapper">
+                                <input 
+                                    type="text" 
+                                    id="order-name" 
+                                    name="name" 
+                                    placeholder="Алексей" 
+                                    required
+                                >
+                                <div class="input-border"></div>
+                            </div>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="order-telegram">
+                                <span class="label-icon">✈️</span>
+                                Telegram
+                            </label>
+                            <div class="input-wrapper">
+                                <input 
+                                    type="text" 
+                                    id="order-telegram" 
+                                    name="telegram" 
+                                    placeholder="@username" 
+                                    required
+                                >
+                                <div class="input-border"></div>
+                            </div>
+                        </div>
+
+                        <div class="form-field">
+                            <label for="order-city">
+                                <span class="label-icon">📍</span>
+                                Город
+                            </label>
+                            <div class="input-wrapper">
+                                <input 
+                                    type="text" 
+                                    id="order-city" 
+                                    name="city" 
+                                    placeholder="Алматы" 
+                                    required
+                                >
+                                <div class="input-border"></div>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="order-submit-btn">
+                            <span class="btn-text">ОТПРАВИТЬ ЗАЯВКУ</span>
+                            <span class="btn-shine"></span>
+                            <div class="btn-glow"></div>
+                        </button>
+                    </form>
+
+                    <!-- Success Message (hidden by default) -->
+                    <div id="orderSuccessMessage" class="order-success hidden">
+                        <div class="success-icon">✓</div>
+                        <h3>Заявка отправлена!</h3>
+                        <p>Мы свяжемся с тобой в ближайшее время</p>
+                    </div>
+
+                    <!-- Error Message (hidden by default) -->
+                    <div id="orderErrorMessage" class="order-error hidden">
+                        <p>Ошибка отправки. Попробуй ещё раз.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Inzzo. Все права защищены.</p>
+            <div class="social-links">
+                <a href="https://t.me/inzzoclo" target="_blank">Telegram</a>
+                <a href="https://instagram.com/inzzoclo" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/static/script.js" defer></script>
+</body>
+</html>
